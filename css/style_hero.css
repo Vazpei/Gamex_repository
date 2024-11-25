@@ -1,0 +1,14 @@
+.hero{
+    background-image: url("/Gamex/img/heroGamex.jpeg");
+    height: 40rem;
+    background-size:cover;
+    color: white;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    margin-bottom: 7rem;
+}
+.hero-title{
+    padding: 13rem 5rem 0 5rem;
+    font-size: 4rem;
+    text-align: center;
+}

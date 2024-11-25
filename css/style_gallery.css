@@ -1,0 +1,23 @@
+html{
+    font-family: "Montserrat", sans-serif;
+    font-size: 62.5%;
+    background-color: rgb(47, 47, 52);
+    color: white;
+}
+.gallery-container{
+    display: grid;
+    align-items: center;
+    grid-template-columns: repeat(2,1fr);
+    text-align: center;
+    gap: 2rem;
+}
+.gallery-container img{
+    width:50rem;
+    height: 24rem;
+    transition: all .2s ease;
+    border-radius: 1rem;
+}
+.gallery-container img:hover{
+    transform: scale(1.2);
+    cursor: pointer;
+}

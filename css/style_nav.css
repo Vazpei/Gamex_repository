@@ -1,0 +1,25 @@
+html{
+    font-family: "Montserrat", sans-serif;
+    font-size: 62.5%;
+    background-color: rgb(47, 47, 52);
+}
+.nav{
+    font-size: 2rem;
+    text-align: center;
+}
+.nav-detail{
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+    margin:4rem 15rem;
+    gap: 4rem;
+    padding: 0 6rem;
+}
+.nav a{
+    color: white;
+    text-decoration: none;
+    transition: all 0.2s ease;
+}
+.nav a:hover{
+    transform: scale(1.2);
+    border-bottom: 1px solid white;
+}

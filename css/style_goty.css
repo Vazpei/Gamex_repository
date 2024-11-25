@@ -1,0 +1,43 @@
+html{
+    font-family: "Montserrat", sans-serif;
+    font-size: 62.5%;
+    background-color: rgb(47, 47, 52);
+    color: white;
+}
+.goty-blog{
+    font-size: 2rem;
+    margin: 4rem 10rem;
+    text-align: center;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    transition: all 1s ease;
+}
+.goty-cover img{
+    width: 100%;
+}
+.info-goty{
+    padding: 2rem 2rem;
+}
+.goty-title{
+    margin-top: 10rem;
+    font-size: 3rem;
+    text-align: center;
+}
+.more-news{
+    text-align: center;
+    font-size: 2rem;
+    padding-top: 50%;
+}
+.moren-title{
+    text-align: center;
+    font-size: 3rem;
+
+}
+.moren-links{
+    text-align: center;
+}
+.creator-info{
+    text-align: left;
+    font-weight: bold;
+    margin-bottom: 3rem;
+}
